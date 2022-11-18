@@ -24,7 +24,22 @@ if (fuel === 'alcohol') {
 }
 
 
+// Approved or not
 
+const grade1 = 6;
+const grade2 = 5;
+const grade3 = 9;
+
+const average = (grade1 + grade2 + grade3) / 3;
+
+console.log(average)
+if (average < 5) {
+    console.log('reproved')
+} else if ( average >= 5 && average <= 7) {
+    console.log('exams')
+} else {
+    console.log('approved')
+}
 
 
 
